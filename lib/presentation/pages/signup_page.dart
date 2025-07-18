@@ -59,6 +59,7 @@ class _SignUpPageState extends State<SignUpPage> {
     }
   }
 
+  //check email and password validation
   String? _validateEmail(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your email';
